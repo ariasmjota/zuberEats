@@ -1,0 +1,47 @@
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-bottom: 1vh;
+}
+.carouselImg {
+  opacity: 0.5;
+  height: 50vh;
+  object-fit: cover;
+}
+.hero-title {
+  position: absolute;
+  font-size: 4.5rem;
+  color: white;
+}
+
+.green {
+  color: rgb(25, 186, 25);
+}
+.categoriesContainer {
+  margin: 5%;
+}
+.containerGrid{
+    margin: 2%;
+}
+.card {
+  height: 200px;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  margin: 10px;
+}
+
+.card-img-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card-img {
+  opacity: 0.5;
+  object-fit: cover;
+}
